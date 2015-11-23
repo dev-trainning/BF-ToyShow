@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6, .heading-1, .heading-2, .heading-3, .heading-4, .heading
 }
 
 h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .heading-1 a:hover, .heading-2 a:hover, .heading-3 a:hover, .heading-4 a:hover, .heading-5 a:hover, .heading-6 a:hover {
-  color: #D91D52;
+  color: #242329;
 }
 
 h1, .heading-1 {
@@ -739,6 +739,7 @@ strong, .bold {
 }
 .post_img {
   overflow: hidden;
+  max-height: 200px;
 }
 .post_caption {
   background: #DD0404;
@@ -1509,6 +1510,11 @@ h5.text-primary {
 
 h5 a {
     color: #fff;
+}
+
+h6.name-star {
+    letter-spacing: 0px;
+    font-size: 18px;
 }
 
 @media (max-width: 767px) {
